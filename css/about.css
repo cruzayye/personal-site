@@ -1,0 +1,39 @@
+
+// #about {
+//   background-color: gray;
+
+// }
+// #aboutWrap{
+//   padding: 5%;
+//   border-top: 1px solid white;
+//   justify-items: center;
+//   display: grid;
+//   grid-template-areas: 
+//     "emoji"
+//     "aboutme"
+// }
+
+#about {
+  height: 100vh;
+}
+#aboutWrap{
+  background-color: black;
+}
+
+
+
+
+
+
+@media (min-width: 600px) {
+#about {
+  background-color: gray;
+
+}
+}
+
+
+
+
+
+

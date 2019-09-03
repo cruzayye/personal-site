@@ -1,0 +1,21 @@
+#code {
+  height: 100vh;
+  background: linear-gradient(to top right, black calc(50% - 1px), #c40bce, #2e0e31 calc(50% + 1px))
+}
+
+#code  {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-content: center;
+  justify-items: center;
+}
+
+#code:onHove {
+  font-size: 2.5em;
+}
+
+#code div:hover {
+  font-size: 10em;
+  transition: 1s;
+}
+

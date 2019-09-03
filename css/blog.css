@@ -1,0 +1,93 @@
+#blogspot{
+  min-height: 90vh;
+  border-top: 1px solid black;
+  background-image: url(../images/images/darkBg.png);
+
+  background-repeat: no-repeat;
+  background-color: black;
+  // background-size: cover;
+}
+// #top{
+//   background: url("../images//images/bg_small.png");
+//   background-size: cover;
+//   position: -webkit-fixed;
+//   height: 90vh;
+// }
+
+.underline {
+  text-decoration: underline;
+}
+
+.blogSpot{
+  padding: 5%;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+ 
+}
+.contentTitle{
+  color: #9f09ad;
+  border-bottom: 1px solid #9f09ad;
+  padding-bottom: 2%;
+  font-size: 2.5em;
+
+
+}
+.blogTitle{
+  color: white;
+  
+
+}
+.blogTitle:hover {
+  cursor: crosshair;
+
+
+}
+
+.blogContent{
+  border-bottom: #9f09ad solid 1px;
+  // background-color: black;
+}
+
+.notes {
+  line-height: 2em;
+
+  color: var(--whiteish)
+
+}
+
+.sites li{
+
+  color: var(--whiteish)
+
+}
+
+#blogspot strong {
+  color: #9f09ad;
+}
+
+
+#blogSection a {
+  /* color: var(--whiteish); */
+  color: #9f09ad;
+}
+
+#blogSection a:hover {
+    color: rgba(240, 185, 240, 0.295);
+}
+
+.notes{
+  display: none;
+}
+@media (min-width: 600px) {
+  #blogSection {
+    width: 75%;
+  }
+  #blogspot{
+    min-height: 90vh;
+    background-image: url("../images/images/darkBgflipped.png");
+    background-attachment: fixed;
+    
+    background-size: cover;
+  }
+}
+
